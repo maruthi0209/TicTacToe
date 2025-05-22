@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.square {
+  width : 150px;
+  height : 150px;
+  border: 1px solid black;
+}
+
+.board-row {
+  margin: 10px 0px;
+  display : flex;
+  flex-direction : row;
+  gap: 10px;
+}
