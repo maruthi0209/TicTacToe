@@ -1,0 +1,46 @@
+/* ScoreBoard.css */
+
+/* Game Title */
+.text-center h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+}
+
+/* Player badges at top */
+.badge {
+  font-weight: 500;
+  border-radius: 0.75rem;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* Score card container */
+.card {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual score display */
+.card-body h5 {
+  font-weight: 600;
+  color: #212529;
+}
+
+.card-body .badge {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Responsive spacing adjustments */
+@media (max-width: 576px) {
+  .badge {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .card-body h5 {
+    font-size: 1rem;
+  }
+}

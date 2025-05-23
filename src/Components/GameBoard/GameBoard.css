@@ -1,0 +1,28 @@
+/* GameBoard.css */
+
+.card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card .row.g-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+/* Ensures each GameCell fills its grid cell */
+.card .row.g-2 > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: make the game board responsive */
+@media (max-width: 576px) {
+  .card .row.g-2 {
+    gap: 0.5rem;
+  }
+}

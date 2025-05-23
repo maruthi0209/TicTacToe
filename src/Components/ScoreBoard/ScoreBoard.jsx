@@ -1,5 +1,5 @@
 import React from 'react';
-import { getCategoryDisplayName, emojiCategories } from '../utils/EmojiCategories';
+import { getCategoryDisplayName, emojiCategories } from '../../utils/EmojiCategories';
 import './ScoreBoard.css';
 
 const ScoreBoard = ({ 

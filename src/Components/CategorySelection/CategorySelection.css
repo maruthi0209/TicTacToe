@@ -1,0 +1,82 @@
+/* CategorySelection.css */
+
+/* Fullscreen background */
+.category-selection-container {
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.card h1 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Player section titles */
+.badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+}
+
+/* Category buttons */
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Start Game Button */
+.btn-warning {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 14px rgba(255, 193, 7, 0.4);
+}
+
+.btn-warning:hover {
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.5);
+}
+
+/* Help link */
+.btn-outline-info {
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: background-color 0.15s;
+}
+
+.btn-outline-info:hover {
+  background-color: #d0ebff;
+  color: #084298;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .card-body {
+    padding: 2rem 1.5rem;
+  }
+}
